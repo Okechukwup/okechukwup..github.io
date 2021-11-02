@@ -1,45 +1,45 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+	  padding: 0;
+	  margin: 0;
+	  box-sizing: border-box;
 }
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-  line-height: 32px;
-  font-size: 16px;
-  width: 100%;
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+	  line-height: 32px;
+	  font-size: 16px;
+	  width: 100%;
 }
 #content{
-  max-width: 57.25rem;
+  	max-width: 57.25rem;
 	padding: 5rem 2rem;
-  max-width: 100%;
-  margin: 8rem auto;
+	max-width: 100%;
+	margin: 8rem auto;
 }
 h1{
-  font-size: 3rem;
-  text-align: center;
-  color: white;
+  	font-size: 3rem;
+  	text-align: center;
+  	color: white;
 }
 h2{
-  font-size: 2rem;
-  text-align: left;
-  border-bottom:1px solid #1b1a1a;
-  margin-right: 5.5em;
+  	font-size: 2rem;
+  	text-align: left;
+  	border-bottom:1px solid #1b1a1a;
+  	margin-right: 5.5em;
 }
 main, footer{
-  padding: .5rem;
+  	padding: .5rem;
 }
 header{
-  display: flex;
-  width: 10rem auto;
-  height: 8rem;
-  padding: 2rem 3rem;
-  align-items: center;
-  border-radius: 1rem;
-  background-color: #fa8334;
+  	display: flex;
+  	width: 10rem auto;
+  	height: 8rem;
+  	padding: 2rem 3rem;
+  	align-items: center;
+  	border-radius: 1rem;
+  	background-color: #fa8334;
 } 
 a:link,
 a:visited,
@@ -47,75 +47,65 @@ a:active {
 	color: #758bfd;
 }
 footer a, footer{
-  text-align: center;
-  background-color: auto;
-  color: #f0fff0;
+  	text-align: center;
+  	background-color: auto;
+  	color: #f0fff0;
 }
 .profile-pic{
-  margin-top: 8rem;
-  display: flex;
-  float: right;
-  padding-left: 5rem;
-  margin-right: -2rem;
+  	margin-top: 8rem;
+  	display: flex;
+  	float: right;
+  	padding-left: 5rem;
+  	margin-right: -2rem;
 }
 .profile-pic img {
-  width: 11.5rem;
+  	width: 11.5rem;
 	height: 17rem;
 	border-radius: 1rem;
 	border: 4px solid blue;
-  margin-top: 60px;
+  	margin-top: 60px;
 }
 main li {
-  margin-left: 4rem;
+  	margin-left: 4rem;
 }
 footer li {
-  list-style: none;
+  	list-style: none;
 }
 footer {
 	width: 10rem auto;
-  height: 6rem;
+  	height: 6rem;
 	font-size: 1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: left;
 	border-radius: 1rem;
-  background-color: #fa8334;
+  	background-color: #fa8334;
 }
 footer ul, div{
-  margin-right: 11em;
+  	margin-right: 11em;
 }
 .copy{
 	font-size: 1.1rem;
 }
 .last-update{
-  color: #78FECF;
+  	color: #78FECF;
 }
-/* @ PHONE SCREEN 
+/* @ PHONE SCREEN */
 
 @media (min-width: 820px) {
-	container {
+	content {
 		padding: 5rem;
-	}
-
-	container {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap: 2rem;
 	}
 
-	ontainer img {
+	content img {
 		max-width: 100%;
 		display: block;
 	}
-
-	.hero-image {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
 	main {
 		grid-template-columns: 1fr 1fr;
 		padding: 0 5rem 5rem 5rem;
 	}
-}*/
+}
