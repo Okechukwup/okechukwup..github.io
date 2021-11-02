@@ -1,111 +1,138 @@
 *{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
-  line-height: 32px;
-  font-size: 16px;
-  width: 100%;
-}
-#content{
-  max-width: 57.25rem;
-	padding: 5rem 2rem;
-  max-width: 100%;
-  margin: 8rem auto;
-}
-h1{
-  font-size: 3rem;
-  text-align: center;
-  color: white;
-}
-h2{
-  font-size: 2rem;
-  text-align: left;
-  border-bottom:1px solid #1b1a1a;
-  margin-right: 5.5em;
-}
-main, footer{
-  padding: .5rem;
-}
-header{
-  display: flex;
-  width: 10rem auto;
-  height: 8rem;
-  padding: 2rem 3rem;
-  align-items: center;
-  border-radius: 1rem;
-  background-color: #fa8334;
-} 
-a:link,
-a:visited,
-a:active {
-	color: #758bfd;
-}
-footer a, footer{
-  text-align: center;
-  background-color: auto;
-  color: #f0fff0;
-}
-.profile-pic{
-  margin-top: 8rem;
-  display: flex;
-  float: right;
-  padding-left: 5rem;
-  margin-right: -2rem;
-}
-.profile-pic img {
-  width: 11.5rem;
-	height: 17rem;
-	border-radius: 1rem;
-	border: 4px solid blue;
-  margin-top: 60px;
-}
-main li {
-  margin-left: 4rem;
-}
-footer li {
-  list-style: none;
-}
-footer {
-	width: 10rem auto;
-  height: 6rem;
-	font-size: 1rem;
-	display: flex;
-	flex-direction: column;
-	align-items: left;
-	border-radius: 1rem;
-  background-color: #fa8334;
-}
-footer ul, div{
-  margin-right: 11em;
-}
-.copy{
-	font-size: 1.1rem;
-}
-.last-update{
-  color: #78FECF;
-}
-/* @ PHONE SCREEN */
-
-@media (min-width: 820px) {
-	container {
-		padding: 5rem;
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		gap: 2rem;
-	}
-
-	container img {
-		max-width: 100%;
-		display: block;
-	}
-	main {
-		grid-template-columns: 1fr 1fr;
-		padding: 0 5rem 5rem 5rem;
-	}
-}
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    line-height: 32px;
+    font-size: 16px;
+    color: #808008;
+    width: 100%;
+  }
+  h1{
+    font-size: 3rem;
+    color: #000000;
+  }
+  h2{
+    font-size: 2rem;
+    text-align: left;
+    border-bottom:1px solid #1b1a1a;
+  }
+  main, footer{
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 960px;
+  }
+  header{
+    display: flex;
+    width: 100%;
+    padding: 2rem 3rem;
+    align-items: center;
+    border-radius: 1rem;
+    background-color: red;
+  } 
+  footer a, footer{
+    text-align: center;
+    background-color: auto;
+    color: #f0fff0;
+  }
+  .profile-pic{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-right: 2rem;
+  }
+  .profile-pic img {
+      width: 11rem;
+      height: 11rem;
+      border-radius: 1rem;
+      border: 4px solid blue;
+  }
+  main li {
+    margin-left: 5rem;
+  }
+  footer li {
+    list-style: none;
+  }
+  footer {
+      width: 100%;
+      font-size: 1rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 1rem;
+      margin-top: 1rem;
+    background-color: red;
+  }
+  
+  footer ul {
+      display: flex;
+      justify-content: center;
+  }
+  .copy {
+      font-weight: 800px;
+  }
+  
+  
+  /* @ PHONE SCREEN 
+  
+  @media (min-width: 820px) {
+      .hero-container {
+          padding: 5rem;
+      }
+  
+      .hero-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+      }
+  
+      .hero-container img {
+          max-width: 100%;
+          display: block;
+      }
+  
+      .hero-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+      }
+  
+      main {
+          grid-template-columns: 1fr 1fr;
+          padding: 0 5rem 5rem 5rem;
+      }
+  }
+  
+  /* @ WEB SCREEN 
+  
+  @media (min-width: 1200px) {
+      .hero-container {
+          padding: 7rem;
+      }
+  
+      .hero-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 2rem;
+          align-items: center;
+      }
+  
+      h1 {
+          font-size: 3rem;
+      }
+  
+      .hero-container img {
+          max-width: 100%;
+          display: block;
+      }
+  
+      main {
+          grid-template-columns: 1fr 1fr 1fr;
+          padding: 0 7rem 7rem 7rem;
+      }
+  }*/
