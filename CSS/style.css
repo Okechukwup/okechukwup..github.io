@@ -7,18 +7,19 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-family: 'Overlock', cursive, sans-serif;
   line-height: 32px;
   font-size: 16px;
   width: 100%;
 }
 #content{
-  max-width: 57.25rem;
+  max-width: 50.25rem;
 	padding: 5rem 2rem;
   max-width: 100%;
   margin: 8rem auto;
 }
 h1{
+  font-family: 'Nosifer', cursive, sans-serif;
   font-size: 3rem;
   text-align: center;
   color: white;
@@ -28,6 +29,7 @@ h2{
   text-align: left;
   border-bottom:1px solid #1b1a1a;
   margin-right: 5.5em;
+  padding-top: 3rem;
 }
 main, footer{
   padding: .5rem;
