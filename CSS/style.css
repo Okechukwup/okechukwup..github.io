@@ -58,7 +58,7 @@ footer a, footer{
   display: flex;
   float: right;
   padding-left: 5rem;
-  margin-right: -2rem;
+  margin-right: 0;
 }
 .profile-pic img {
   width: 13rem;
