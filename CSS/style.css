@@ -31,9 +31,6 @@ h2{
   padding-top: 10px;
   color: black;
 }
-main, footer{
-  padding: .3rem;
-}
 header{
   display: flex;
   width: 10rem auto;
@@ -58,7 +55,7 @@ footer a, footer{
   display: flex;
   float: right;
   padding-left: 5rem;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 .profile-pic img {
   width: 13rem;
