@@ -93,7 +93,7 @@ footer ul, div{
 .last-update{
   color: #78FECF;
 }
-main ul, footer ul{
+.links, .last-update{
   display: inline;
 }
 /* @ PHONE SCREEN 
