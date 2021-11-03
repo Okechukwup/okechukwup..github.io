@@ -28,7 +28,7 @@ h2{
   font-size: 2rem;
   text-align: left;
   border-bottom:1px solid #1b1a1a;
-  margin-right: 5.5em;
+  margin-right: 4em;
   padding-top: 10px;
   font-size: 3rem;
   text-align: center;
@@ -57,11 +57,11 @@ footer a, footer{
   color: #f0fff0;
 }
 .profile-pic{
-  margin-top: 8rem;
+  margin-top: 12rem;
   display: flex;
   float: right;
   padding-left: 5rem;
-  margin-right: -2rem;
+  margin-right: -4rem;
 }
 .profile-pic img {
   width: 13rem;
@@ -95,6 +95,9 @@ footer ul, div{
 }
 .last-update{
   color: #78FECF;
+}
+main ul, footer ul{
+  display: inline;
 }
 /* @ PHONE SCREEN 
 
