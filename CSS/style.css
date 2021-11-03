@@ -9,11 +9,10 @@ body{
   align-items: center;
   font-family: 'Overluck', cursive, sans-serif;
   line-height: 32px;
-  font-size: 16px;
   width: 100%;
 }
 #content{
-  max-width: 50.25rem;
+  max-width: 57.25rem;
 	padding: 5rem 2rem;
 	max-width: 100%;
 	margin: 8rem auto;
@@ -30,12 +29,10 @@ h2{
   border-bottom:1px solid #1b1a1a;
   margin-right: 4em;
   padding-top: 10px;
-  font-size: 1.5rem;
-  text-align: center;
   color: black;
 }
 main, footer{
-  padding: .5rem;
+  padding: .3rem;
 }
 header{
   display: flex;
@@ -61,7 +58,7 @@ footer a, footer{
   display: flex;
   float: right;
   padding-left: 5rem;
-  margin-right: -4rem;
+  margin-right: -2rem;
 }
 .profile-pic img {
   width: 13rem;
