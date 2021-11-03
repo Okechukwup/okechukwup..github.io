@@ -12,7 +12,7 @@ body{
   width: 100%;
 }
 #content{
-  max-width: 57.25rem;
+  max-width: 50.25rem;
 	padding: 5rem 2rem;
 	max-width: 100%;
 	margin: 8rem auto;
@@ -58,7 +58,7 @@ footer a, footer{
   display: flex;
   float: right;
   padding-left: 5rem;
-  margin-right: 0;
+  margin-right: 3rem;
 }
 .profile-pic img {
   width: 13rem;
