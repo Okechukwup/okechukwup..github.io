@@ -5,7 +5,6 @@ header, body, footer{
 }
 h1{
 	font-family: 'Nosifer', cursive, sans-serif;
-	padding-left: 5px;
 	font-size: 2rem;
 	text-align: center;
  	justify-content: center;
@@ -15,7 +14,7 @@ h2{
 	font-size: 2rem;
 	border-bottom:1px solid #1b1a1a;
 	margin-right: 4em;
-	padding-top: 5px;
+	padding-top: 3px;
 	color: black;
 }
 header{
@@ -30,8 +29,8 @@ a:active {
 }
 .profile-pic{
 	float: right;
-	margin-right: 10px;
-	margin-top: 5px;
+	margin-right: 20px;
+	margin-top: 10px;
 }
 .profile-pic img {
 	width: 13rem;
@@ -41,7 +40,7 @@ a:active {
 	box-shadow:5px 0 5px 5px #033483;
 }
 .links {
- 	margin-left: 4rem;
+ 	margin-left: 2rem;
 }
 footer li {
  	list-style: none;
@@ -49,7 +48,6 @@ footer li {
 footer {
 	text-align: center;
 	color: #f0fff0;
-	font-size: 1.2rem;
 	border-radius: 1rem;
 	background-color: #fa8334;
 }
