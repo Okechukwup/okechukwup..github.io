@@ -4,7 +4,7 @@ header, body, footer{
 	margin: 1rem auto;
 }
 h1{
-	font-family: ''Segoe UI'', cursive, sans-serif;
+	font-family: 'Segoe UI', cursive, sans-serif;
 	font-size: 2rem;
 	text-align: center;
  	justify-content: center;
@@ -34,13 +34,13 @@ a:active {
 }
 .profile-pic img {
 	width: 13rem;
-	height: 12rem;
+	height: 15rem;
 	border-radius: 1rem;
 	border: 4px solid blue;
 	box-shadow:5px 0 5px 5px #033483;
 }
 .links {
- 	margin-left: 2rem;
+ 	margin-left: 1.5rem;
 }
 footer li {
  	list-style: none;
@@ -55,6 +55,7 @@ footer {
 }
 .copy, .last-update {
   align-items: center;
+  justify-content: center;
 }
 /* @ PHONE SCREEN 
 
