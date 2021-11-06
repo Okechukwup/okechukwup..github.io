@@ -41,7 +41,7 @@ a:active {
 	box-shadow:5px 0 5px 5px #033483;
 }
 .links {
- 	margin-left: -20px;
+ 	margin-left: 20px;
 }
 footer li {
  	list-style: none;
@@ -49,14 +49,16 @@ footer li {
 footer {
 	font-size: 1rem;
 	border-radius: 1rem;
-  text-align: center;
 	background-color: #fa8334;
 }
-.last-checked{
+.last-update{
  	color: #78FECF;
   margin-left: -2rem;
 }
-
+.copy, .last-update {
+  text-align: center;
+  justify-items: center;
+}
 /* @ PHONE SCREEN 
 
 @media (min-width: 820px) {
