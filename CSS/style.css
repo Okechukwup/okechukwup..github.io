@@ -46,6 +46,7 @@ footer li {
  	list-style: none;
 }
 footer {
+  display: flex;
   align-items: center;
 	font-size: 1rem;
 	border-radius: 1rem;
@@ -55,7 +56,6 @@ footer {
  	color: #78FECF;
 }
 footer ul {
-  display: flex;
   justify-content: center;
 }
 /* @ PHONE SCREEN 
