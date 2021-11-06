@@ -46,6 +46,8 @@ footer li {
  	list-style: none;
 }
 footer {
+  display: flex;
+  align-items: center;
 	font-size: 1rem;
 	border-radius: 1rem;
 	background-color: #fa8334;
@@ -53,8 +55,8 @@ footer {
 .last-update{
  	color: #78FECF;
 }
-.copy, .last-update {
-  align-items: center;
+footer ul {
+  display: flex;
   justify-content: center;
 }
 /* @ PHONE SCREEN 
