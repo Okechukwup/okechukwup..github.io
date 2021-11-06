@@ -34,7 +34,7 @@ a:active {
 }
 .profile-pic img {
 	width: 13rem;
-	height: 15rem;
+	height: 12rem;
 	border-radius: 1rem;
 	border: 4px solid blue;
 	box-shadow:5px 0 5px 5px #033483;
@@ -46,13 +46,15 @@ footer li {
  	list-style: none;
 }
 footer {
-  align-items: center;
 	font-size: 1rem;
 	border-radius: 1rem;
 	background-color: #fa8334;
 }
 .last-update{
  	color: #78FECF;
+}
+.copy, .last-update {
+  align-items: center;
 }
 /* @ PHONE SCREEN 
 
