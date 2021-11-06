@@ -9,7 +9,7 @@ h1{
 	text-align: center;
  	justify-content: center;
 	color: white;
-  text-shadow: -4px 3px rgb(18, 209, 50);
+  text-shadow: -3px 3px rgb(18, 209, 50);
 }
 h2{
 	font-size: 2rem;
@@ -53,7 +53,7 @@ footer {
 }
 .last-update{
  	color: #78FECF;
-  margin-left: 2rem;
+  margin-left: -2rem;
 }
 .copy, .last-update {
   text-align: center;
