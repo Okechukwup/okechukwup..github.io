@@ -76,3 +76,6 @@ footer {
     text-align: center;
     justify-items: center;
 }
+footer li {
+    list-style: none;
+}
