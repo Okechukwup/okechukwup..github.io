@@ -1,0 +1,6 @@
+@media only screen and (min-width: 32.5em) {
+    .profile-pic img{
+            float: right;
+            box-shadow:5px 0 5px 5px #033483;
+    }
+}

@@ -53,11 +53,11 @@ footer {
 }
 .last-update{
  	color: #78FECF;
-  margin-left: -2rem;
+  	margin-left: -2rem;
 }
 .copy, .last-update {
-  text-align: center;
-  justify-items: center;
+	text-align: center;
+	justify-items: center;
 }
 /* @ PHONE SCREEN 
 
