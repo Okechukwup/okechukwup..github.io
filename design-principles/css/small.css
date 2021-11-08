@@ -1,5 +1,5 @@
 html {
-    font-family: 'Carter One', 'cursive', sans-serif;
+    font-family: 'cursive', sans-serif;
 }
   
 body {
@@ -25,11 +25,13 @@ footer {
 }
 
 h1 {
+    font-family: 'Carter One', 'cursive', sans-serif;
     font-size: 2.4rem;
     color: #081202;
 }
 
 main {
+    align-content: center;
     display: grid;
     grid-template-columns: auto;
     grid-gap: 10px;
